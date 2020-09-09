@@ -50,7 +50,9 @@ document.addEventListener('scroll', function () {
     // let isVisible = top > document.querySelector('.containerPhoto > img');
   
      if (top > 2500) {
-       document.getElementById('photoLeft').classList.add('animate__animated', 'animate__fadeInLeft');
+
+      
+       document.getElementById('photoLeft').classList.add('animate__animated', 'animate__fadeInLeft').style.setProperty('--animate-duration', '2.25s');
        document.getElementById('photoDown').classList.add('animate__animated', 'animate__fadeInDown');
        document.getElementById('photoUp').classList.add('animate__animated', 'animate__fadeInUp');
        document.getElementById('photoRight').classList.add('animate__animated', 'animate__fadeInRight');

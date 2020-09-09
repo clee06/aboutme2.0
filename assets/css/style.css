@@ -24,7 +24,7 @@ body {
   background: rgba(0, 0, 0, 0.6)!important; 
   border-bottom: solid 1px #fff;
   transition: all 0.5s; 
-  height: 80px;    
+     
 }
 
 .navbar-nav li{
@@ -382,7 +382,7 @@ hr.socket {
   }
 
   navbar-brand img {
-    height: 80px;
+    height: auto;
     width: 80px;
     padding-bottom: 10px;
   }
@@ -390,7 +390,7 @@ hr.socket {
   .navbar {
     font-size: 12px;
     letter-spacing: 4px;
-              
+    height: auto;
   }
 
   .btn-lg {
@@ -487,14 +487,9 @@ hr.socket {
   }
 
    .navbar {
-    /* text-transform: uppercase;
-    font-weight: 700; */
     font-size: 10px;
     letter-spacing: 2px;
-    /* background: rgba(0, 0, 0, 0.6)!important; 
-    border-bottom: solid 1px #fff;
-    transition: all 0.5s;  */
-    height: 80px;
+    height: auto;
       
   }
   
@@ -523,14 +518,9 @@ hr.socket {
 @media only screen and (max-width: 1199) {
 
   .navbar {
-    /* text-transform: uppercase;
-    font-weight: 700; */
     font-size: 10px;
     letter-spacing: 2px;
-    /* background: rgba(0, 0, 0, 0.6)!important; 
-    border-bottom: solid 1px #fff;
-    transition: all 0.5s;  */
-    height: 80px;
+    height: 40vmax;
       
   }
   
@@ -542,172 +532,6 @@ hr.socket {
 
 }
 
-
-/* 
-@media (max-width: 575px) {
-
-  .caption h1 {
-    font-size: 30px;
-    letter-spacing: 2.5px;
-    padding-bottom: 8px;
-  }
-
-  .caption h3 {
-    font-size: 20px;
-    padding-bottom: 20px;
-  }
-
-  navbar-brand img {
-    height: 80px;
-    width: 80px;
-    padding-bottom: 10px;
-  }
-
-  .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 4px;
-    
-          
-  }
-
-  .btn-lg {
-    padding: 8px 16px;
-    font-size: 16px;
-  }
-  .narrow h1{
-    font-size: 1.5rem;
-  }
-  .img-fluid{
-    max-width:50%;
-    display: block;
-    margin: 0 auto;
-  }
-  
-} */
-
-/* @media (max-width: 766px) {
-
-  .caption h1 {
-    font-size: 24px;
-    letter-spacing: 2.5px;
-    padding-bottom: 4px;
-  }
-
-  .caption h3 {
-    font-size: 16px;
-    padding-bottom: 10px;
-  }
-
-  .btn-lg {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
-  .narrow h1{
-    font-size: 1.0rem;
-  }
-  .img-fluid{
-    max-width:50%;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .navbar {
-    font-size: 12px;
-    height: 80px;
-    padding-bottom: 10px;
-  }
-  
-  .navbar-nav {
-    font-size:10px;
-    display: flex;
-  }
-
-  .navbar-brand img {
-    height: 80px;
-    width: 90px;
-    padding-bottom: 10px;
-  }
-
-  .navbar-toggler{
-    padding: .2rem .77rem;
-    font-size: 1rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    margin-bottom: 20px
-  }
-
- .p {
-    font-size: 10px;
-    padding: 10px;
-  }
-
-} */
-
-/* 
-@media (max-width: 991px) {
-
-  .caption h1 {
-    font-size: 40px;
-    letter-spacing: 3px;
-    padding-bottom: 5px;
-  }
-
-  .caption h3 {
-    font-size: 20px;
-    padding-bottom: 10px;
-  }
-
-  .btn-lg {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
-  .narrow h1{
-    font-size: 1.0rem;
-  }
-  .img-fluid{
-    max-width:50%;
-    display: block;
-    margin: 0 auto;
-  }
-
-   .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 10px;
-    letter-spacing: 2px;
-    background: rgba(0, 0, 0, 0.6)!important; 
-    border-bottom: solid 1px #fff;
-    transition: all 0.5s; 
-    height: 80px;
-      
-  }
-  
-  .navbar-brand img {
-    height: 100px;
-    width: 100px;
-    padding-top: 5px;
-  }
-
-  .navbar-toggler{
-    padding: .2rem .77rem;
-    font-size: 1rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    margin-bottom: 20px
-  }
-
- .p {
-    font-size: 10px;
-    padding: 10px;
-  }
-
-} */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
